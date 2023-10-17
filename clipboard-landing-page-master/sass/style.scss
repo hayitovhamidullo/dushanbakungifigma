@@ -1,0 +1,958 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    // font-size: 10px;
+    font-family: Bai Jamjuree;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // opacity: 0.5;
+    .container{
+        max-width: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 32px;
+        padding-right: 32px;
+        .logo{
+            padding-top: 123px;
+            margin-bottom: 63px;
+        }
+        h1{
+            margin: 0 auto;
+            max-width: 311px;
+            color: #4C545C;
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            letter-spacing: -0.522px;
+        }
+        h2{
+            max-width: 311px;
+            margin: 0 auto;
+            padding-top: 16px;
+            color: #9EABB2;
+            text-align: center;
+            font-family: Bai Jamjuree;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.12px;
+        }
+        ul{
+            margin-top: 48px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 24px;
+            .Download_iOS{
+                max-width: 311px;
+                height: 56px;
+                border-radius: 28px;
+                background: #26BBA4;
+                box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+                border: none;
+                padding: 13px 50px;
+                a{
+                    // max-width: 311px;
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 30px; 
+                    letter-spacing: 0.5px;
+                }
+            }
+
+            .Download_Mac{
+                max-width: 311px;
+                height: 56px;
+                border-radius: 28px;
+                background: #6174FF;
+                padding: 13px 50px;
+                border: none;
+                box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+                a{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 30px; /* 166.667% */
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
+    }
+}
+
+main{
+    margin-top: 160px;
+    .keep{
+        max-width: 420px;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 32px;
+        padding-right: 32px;
+        .main_keep_text{
+            h2{
+                max-width: 311px;
+                color: #4C545C;
+                text-align: center;
+                font-size: 28px;
+                font-weight: 600;
+                letter-spacing: -0.457px;
+            }
+            p{
+                margin-top: 1.6rem;
+                max-width: 311px;
+                color: #9EABB2;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+                letter-spacing: 0.12px; 
+            }
+        }
+
+
+        .main_keep_nootebok{
+            margin-top: 65px;
+            display: flex;
+            flex-direction: column;
+            flex-direction: column-reverse;
+            row-gap: 56px;
+
+            .nootebok_text{
+                max-width: 420px;
+                margin: 0 auto;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    h2{
+                        color: #4C545C;
+                        text-align: center;
+                        font-size: 24px;
+                        font-weight: 600;
+                        letter-spacing: -0.391px;
+                    }
+
+                    p{
+                        color: #9EABB2;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0.12px;
+                        margin-bottom: 48px;
+                    }
+                }
+            }
+
+            .nootebok{
+                display: flex;
+                max-width: 312px;
+                height: 238px;
+            }
+        }
+
+
+        // tablet 
+
+        .main_keep_tablet{
+            display: flex;
+            flex-direction: column;
+            row-gap: 68px;
+            margin-top: 186px;
+
+            .keep_tablet_text{
+                display: flex;
+                flex-direction: column;
+                row-gap: 16px;
+                h2{
+                    max-width: 311px;
+                    color: #4C545C;
+                    text-align: center;
+                    font-size: 28px;
+                    font-weight: 600;
+                    letter-spacing: -0.457px;
+                }
+
+                p{
+                    max-width: 311px;
+                    color: #9EABB2;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0.12px;
+                }
+            }
+
+            .tablet{
+                max-width: 273px;
+                height: 182px;
+            }
+        }
+
+        // main icons 
+
+        .main_icon{
+            margin-top: 100px;
+
+            h2{
+                max-width: 311px;
+                color: #4C545C;
+                text-align: center;
+                font-size: 28px;
+                font-weight: 600;
+                letter-spacing: -0.457px;
+                margin-bottom: 10px;
+            }
+
+            h3{
+                color: #9EABB2;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.12px;
+                max-width: 311px;
+                margin-bottom: 90px;
+            }
+            .main_icon_nam{
+                display: flex;
+                flex-direction: column;
+                row-gap: 56px;
+                .main_icon_create{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 18px;
+                        .messech{
+                            margin-bottom: 22px;
+                        }
+
+                        h2{
+                            color: #4C545C;
+                            text-align: center;
+                            font-size: 28px;
+                            font-weight: 600;
+                            letter-spacing: -0.457px;
+                        }
+
+                        h3{
+                            max-width: 311px;
+                            color: #9EABB2;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px; 
+                            letter-spacing: 0.12px;
+                        }
+                    }
+                }
+
+
+                .main_icon_plain{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 18px;
+                        .mateh{
+                            margin-bottom: 22px;
+                        }
+
+                        h2{
+                            color: #4C545C;
+                            text-align: center;
+                            font-size: 28px;
+                            font-weight: 600;
+                            letter-spacing: -0.457px;
+                        }
+
+                        h3{
+                            max-width: 311px;
+                            color: #9EABB2;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px; 
+                            letter-spacing: 0.12px;
+                        }
+                    }
+                }
+
+
+                .main_icon_sneak{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 18px;
+                        .koz{
+                            margin-bottom: 22px;
+                        }
+
+                        h2{
+                            color: #4C545C;
+                            text-align: center;
+                            font-size: 28px;
+                            font-weight: 600;
+                            letter-spacing: -0.457px;
+                        }
+
+                        h3{
+                            max-width: 311px;
+                            color: #9EABB2;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px; 
+                            letter-spacing: 0.12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        // main logo 
+        .main_logo{
+            margin-top: 131px;
+            ul{
+                display: flex;
+                flex-direction: column;
+                row-gap: 57px;
+                img{
+                    width: 139px;
+                    height: 41px;
+                }
+            }
+        }
+
+        // main ios 
+
+        .main_ios{
+            margin-top: 170px;
+            h2{
+                max-width: 311px;
+                color: #4C545C;
+                text-align: center;
+                font-size: 28px;
+                font-weight: 600;
+                letter-spacing: -0.457px;
+                margin-bottom: 16px;
+            }
+            p{
+                max-width: 311px;
+                color: #9EABB2;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+                letter-spacing: 0.12px;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                row-gap: 24px;
+                margin-top: 46px;
+                .Download_iOS{
+                    max-width: 311px;
+                    height: 56px;
+                    border-radius: 28px;
+                    background: #26BBA4;
+                    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+                    border: none;
+                    padding: 13px 50px;
+                    a{
+                        // max-width: 311px;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px; 
+                        letter-spacing: 0.5px;
+                    }
+                }
+
+                .Download_Mac{
+                    max-width: 311px;
+                    height: 56px;
+                    border-radius: 28px;
+                    background: #6174FF;
+                    padding: 13px 50px;
+                    border: none;
+                    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+                    a{
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px; /* 166.667% */
+                        letter-spacing: 0.5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    // max-width: 420px;
+    margin-top: 222px;
+    // opacity: 0.1002;
+    background-image: url(/clipboard-landing-page-master/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 53px;
+    background-color: #f5f6f8;
+    .footer_section{
+        max-width: 420px;
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 32px;
+        padding-right: 32px;
+
+        .footer_left{
+            padding-top: 52px;
+        }
+        .footer_center{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            ul{
+                display: flex;
+                flex-direction: column;
+                row-gap: 20px;
+                a{
+                    color: #4C545C;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0.135px;
+                }
+            }
+        }
+        .footer_icon{
+            ul{
+                justify-content: center;
+                display: flex;
+                column-gap: 40px;
+                font-size: 20px;
+            }
+            margin-top: 50px;
+        }
+    }
+}
+
+@media screen and (min-width:64rem) {
+    
+header{
+    background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // opacity: 0.5;
+    .container{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0rem;
+        .logo{
+            padding-top: 12.8rem;
+            margin-bottom: 5.6rem;
+        }
+        h1{
+            color: #4C545C;
+            text-align: center;
+            font-size: 46px;
+            font-weight: 600;
+            letter-spacing: -0.75px;
+            max-width: 73rem;
+            margin: 0 auto;
+        }
+        h2{
+            max-width: 73rem;
+            margin: 0 auto;
+            padding-top: 16px;
+            color: #9EABB2;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            letter-spacing: 0.15px;
+        }
+        ul{
+            margin-top: 4.8rem;
+            display: flex;
+            flex-direction: row;
+            row-gap: 0px;
+            column-gap: 1.6rem;
+            justify-content: center;
+            .Download_iOS{
+                max-width: 311px;
+                height: 56px;
+                border-radius: 28px;
+                background: #26BBA4;
+                box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+                border: none;
+                padding: 13px 50px;
+                a{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 30px; 
+                    letter-spacing: 0.5px;
+                }
+            }
+
+            .Download_Mac{
+                max-width: 311px;
+                height: 56px;
+                border-radius: 28px;
+                background: #6174FF;
+                padding: 13px 50px;
+                border: none;
+                box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+                a{
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 30px; 
+                    letter-spacing: 0.5px;
+                }
+            }
+        }
+    }
+}
+
+main{
+    margin-top: 15rem;
+    .keep{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        .main_keep_text{
+            h2{
+                max-width: 73rem;
+                text-align: center;
+                font-size: 36px;
+                font-weight: 600;
+                letter-spacing: -0.587px;
+                margin: 0 auto;
+            }
+            p{
+                padding-top: 1.9rem;
+                max-width: 73rem;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 30px;
+                letter-spacing: 0.135px; 
+                margin: 0 auto;
+            }
+        }
+
+
+        .main_keep_nootebok{
+            margin-top: 65px;
+            display: flex;
+            flex-direction: row;
+            flex-direction: row-reverse;
+            // justify-content: space-between;
+            column-gap: 11rem;
+            row-gap: 56px;
+            align-items: center;
+            .nootebok_text{
+                max-width: 420px;
+                margin: 0 auto;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 10px;
+                    text-align: start;
+                    h2{
+                        color: #4C545C;
+                        text-align: center;
+                        font-size: 24px;
+                        font-weight: 600;
+                        letter-spacing: -0.391px;
+                        text-align: start;
+                    }
+
+                    p{
+                        color: #9EABB2;
+                        text-align: center;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        letter-spacing: 0.12px;
+                        margin-bottom: 48px;
+                        text-align: start;
+                        max-width: 320px;
+                    }
+                }
+            }
+
+            .nootebok{
+                display: flex;
+                max-width: 75.2rem;
+                height: 572px;
+                margin-left: -40px;
+            }
+        }
+
+
+        // tablet 
+
+        .main_keep_tablet{
+            display: flex;
+            flex-direction: column;
+            row-gap: 68px;
+            margin-top: 150px;
+
+            .keep_tablet_text{
+                display: flex;
+                flex-direction: column;
+                row-gap: 16px;
+                max-width: 73rem;
+                margin: 0 auto;
+                h2{
+                    max-width: 73rem;
+                    color: #4C545C;
+                    text-align: center;
+                    font-size: 28px;
+                    font-weight: 600;
+                    letter-spacing: -0.457px;
+                }
+
+                p{
+                    max-width: 73rem;
+                    color: #9EABB2;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    letter-spacing: 0.12px;
+                }
+            }
+
+            .tablet{
+                max-width: 706.845px;
+                height: 471.23px;
+            }
+        }
+
+        // main icons 
+
+        .main_icon{
+            padding-top: 162px;
+            width: 80%;
+            margin: 0 auto;
+            h2{
+                max-width: 73rem;
+                margin: 0 auto;
+                color: #4C545C;
+                text-align: center;
+                font-size: 36px;
+                font-weight: 600;
+                letter-spacing: -0.587px;
+            }
+
+            h3{
+                color: #9EABB2;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px;
+                letter-spacing: 0.12px;
+                max-width: 73rem;
+                margin-bottom: 90px;
+                margin: 0 auto;
+            }
+            .main_icon_nam{
+                margin-top: 7.6rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+
+                .main_icon_create{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 18px;
+                        .messech{
+                            margin-bottom: 22px;
+                        }
+
+                        h2{
+                            color: #4C545C;
+                            text-align: center;
+                            font-size: 28px;
+                            font-weight: 600;
+                            letter-spacing: -0.457px;
+                        }
+
+                        h3{
+                            max-width: 311px;
+                            color: #9EABB2;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px; 
+                            letter-spacing: 0.12px;
+                        }
+                    }
+                }
+
+
+                .main_icon_plain{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 18px;
+                        .mateh{
+                            margin-bottom: 22px;
+                        }
+
+                        h2{
+                            color: #4C545C;
+                            text-align: center;
+                            font-size: 28px;
+                            font-weight: 600;
+                            letter-spacing: -0.457px;
+                        }
+
+                        h3{
+                            max-width: 311px;
+                            color: #9EABB2;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px; 
+                            letter-spacing: 0.12px;
+                        }
+                    }
+                }
+
+
+                .main_icon_sneak{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        row-gap: 18px;
+                        .koz{
+                            margin-bottom: 22px;
+                        }
+
+                        h2{
+                            color: #4C545C;
+                            text-align: center;
+                            font-size: 28px;
+                            font-weight: 600;
+                            letter-spacing: -0.457px;
+                        }
+
+                        h3{
+                            max-width: 311px;
+                            color: #9EABB2;
+                            text-align: center;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 26px; 
+                            letter-spacing: 0.12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        // main logo 
+        .main_logo{
+            margin-top: 131px;
+            ul{
+                max-width: 90%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 0 auto;
+                img{
+                    width: 139px;
+                    height: 41px;
+                }
+            }
+        }
+
+        // main ios 
+
+        .main_ios{
+            margin-top: 170px;
+            h2{
+                max-width: 730px;
+                color: #4C545C;
+                text-align: center;
+                font-size: 28px;
+                font-weight: 600;
+                letter-spacing: -0.457px;
+                padding-bottom: 16px;
+                margin: 0 auto;
+            }
+            p{
+                max-width: 700px;
+                margin: 0 auto;
+                color: #9EABB2;
+                text-align: center;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 26px; 
+                letter-spacing: 0.12px;
+            }
+            ul{
+                display: flex;
+                flex-direction: row;
+                column-gap: 16px;
+                margin-top: 46px;
+                justify-content: center;
+                .Download_iOS{
+                    max-width: 311px;
+                    height: 56px;
+                    border-radius: 28px;
+                    background: #26BBA4;
+                    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.50), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+                    border: none;
+                    padding: 13px 50px;
+                    a{
+                        // max-width: 311px;
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px; 
+                        letter-spacing: 0.5px;
+                    }
+                }
+
+                .Download_Mac{
+                    max-width: 311px;
+                    height: 56px;
+                    border-radius: 28px;
+                    background: #6174FF;
+                    padding: 13px 50px;
+                    border: none;
+                    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.10), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+                    a{
+                        color: #FFF;
+                        text-align: center;
+                        font-size: 18px;
+                        font-weight: 600;
+                        line-height: 30px; /* 166.667% */
+                        letter-spacing: 0.5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    margin-top: 222px;
+    padding-bottom: 53px;
+    .footer_section{
+        max-width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+
+        .footer_left{
+            padding-top: 52px;
+        }
+        .footer_center{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            ul{
+                display: flex;
+                flex-direction: row;
+                column-gap: 40px;
+                a{
+                    color: #4C545C;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    letter-spacing: 0.135px;
+                }
+            }
+        }
+        .footer_icon{
+            ul{
+                justify-content: center;
+                display: flex;
+                column-gap: 40px;
+                font-size: 20px;
+            }
+            margin-top: 50px;
+        }
+    }
+}
+}
+
+.icon_nam{
+    font-size: 30px;
+}
+.icon_nam:hover{
+    color: #26BBA4;
+    cursor: pointer;
+}
+
+.footer_center a:hover{
+    color: #26BBA4;
+    cursor: pointer;
+}

@@ -1,0 +1,861 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Bai Jamjuree;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .container {
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+header .container .logo {
+  padding-top: 123px;
+  margin-bottom: 63px;
+}
+header .container h1 {
+  margin: 0 auto;
+  max-width: 311px;
+  color: #4C545C;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.522px;
+}
+header .container h2 {
+  max-width: 311px;
+  margin: 0 auto;
+  padding-top: 16px;
+  color: #9EABB2;
+  text-align: center;
+  font-family: Bai Jamjuree;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+header .container ul {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+header .container ul .Download_iOS {
+  max-width: 311px;
+  height: 56px;
+  border-radius: 28px;
+  background: #26BBA4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  border: none;
+  padding: 13px 50px;
+}
+header .container ul .Download_iOS a {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+header .container ul .Download_Mac {
+  max-width: 311px;
+  height: 56px;
+  border-radius: 28px;
+  background: #6174FF;
+  padding: 13px 50px;
+  border: none;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+header .container ul .Download_Mac a {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.5px;
+}
+
+main {
+  margin-top: 160px;
+}
+main .keep {
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+main .keep .main_keep_text h2 {
+  max-width: 311px;
+  color: #4C545C;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.457px;
+}
+main .keep .main_keep_text p {
+  margin-top: 1.6rem;
+  max-width: 311px;
+  color: #9EABB2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+main .keep .main_keep_nootebok {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  row-gap: 56px;
+}
+main .keep .main_keep_nootebok .nootebok_text {
+  max-width: 420px;
+  margin: 0 auto;
+}
+main .keep .main_keep_nootebok .nootebok_text ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+main .keep .main_keep_nootebok .nootebok_text ul h2 {
+  color: #4C545C;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.391px;
+}
+main .keep .main_keep_nootebok .nootebok_text ul p {
+  color: #9EABB2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  margin-bottom: 48px;
+}
+main .keep .main_keep_nootebok .nootebok {
+  display: flex;
+  max-width: 312px;
+  height: 238px;
+}
+main .keep .main_keep_tablet {
+  display: flex;
+  flex-direction: column;
+  row-gap: 68px;
+  margin-top: 186px;
+}
+main .keep .main_keep_tablet .keep_tablet_text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+main .keep .main_keep_tablet .keep_tablet_text h2 {
+  max-width: 311px;
+  color: #4C545C;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.457px;
+}
+main .keep .main_keep_tablet .keep_tablet_text p {
+  max-width: 311px;
+  color: #9EABB2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+main .keep .main_keep_tablet .tablet {
+  max-width: 273px;
+  height: 182px;
+}
+main .keep .main_icon {
+  margin-top: 100px;
+}
+main .keep .main_icon h2 {
+  max-width: 311px;
+  color: #4C545C;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.457px;
+  margin-bottom: 10px;
+}
+main .keep .main_icon h3 {
+  color: #9EABB2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+  max-width: 311px;
+  margin-bottom: 90px;
+}
+main .keep .main_icon .main_icon_nam {
+  display: flex;
+  flex-direction: column;
+  row-gap: 56px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_create ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_create ul .messech {
+  margin-bottom: 22px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_create ul h2 {
+  color: #4C545C;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.457px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_create ul h3 {
+  max-width: 311px;
+  color: #9EABB2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_plain ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_plain ul .mateh {
+  margin-bottom: 22px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_plain ul h2 {
+  color: #4C545C;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.457px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_plain ul h3 {
+  max-width: 311px;
+  color: #9EABB2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_sneak ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_sneak ul .koz {
+  margin-bottom: 22px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_sneak ul h2 {
+  color: #4C545C;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.457px;
+}
+main .keep .main_icon .main_icon_nam .main_icon_sneak ul h3 {
+  max-width: 311px;
+  color: #9EABB2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+main .keep .main_logo {
+  margin-top: 131px;
+}
+main .keep .main_logo ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 57px;
+}
+main .keep .main_logo ul img {
+  width: 139px;
+  height: 41px;
+}
+main .keep .main_ios {
+  margin-top: 170px;
+}
+main .keep .main_ios h2 {
+  max-width: 311px;
+  color: #4C545C;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.457px;
+  margin-bottom: 16px;
+}
+main .keep .main_ios p {
+  max-width: 311px;
+  color: #9EABB2;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+main .keep .main_ios ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-top: 46px;
+}
+main .keep .main_ios ul .Download_iOS {
+  max-width: 311px;
+  height: 56px;
+  border-radius: 28px;
+  background: #26BBA4;
+  box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  border: none;
+  padding: 13px 50px;
+}
+main .keep .main_ios ul .Download_iOS a {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+main .keep .main_ios ul .Download_Mac {
+  max-width: 311px;
+  height: 56px;
+  border-radius: 28px;
+  background: #6174FF;
+  padding: 13px 50px;
+  border: none;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+}
+main .keep .main_ios ul .Download_Mac a {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.5px;
+}
+
+footer {
+  margin-top: 222px;
+  background-image: url(/clipboard-landing-page-master/images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 53px;
+  background-color: #f5f6f8;
+}
+footer .footer_section {
+  max-width: 420px;
+  margin: 0 auto;
+  text-align: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+footer .footer_section .footer_left {
+  padding-top: 52px;
+}
+footer .footer_section .footer_center {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+footer .footer_section .footer_center ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+footer .footer_section .footer_center ul a {
+  color: #4C545C;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.135px;
+}
+footer .footer_section .footer_icon {
+  margin-top: 50px;
+}
+footer .footer_section .footer_icon ul {
+  justify-content: center;
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 64rem) {
+  header {
+    background-image: url(/clipboard-landing-page-master/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0rem;
+  }
+  header .container .logo {
+    padding-top: 12.8rem;
+    margin-bottom: 5.6rem;
+  }
+  header .container h1 {
+    color: #4C545C;
+    text-align: center;
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: -0.75px;
+    max-width: 73rem;
+    margin: 0 auto;
+  }
+  header .container h2 {
+    max-width: 73rem;
+    margin: 0 auto;
+    padding-top: 16px;
+    color: #9EABB2;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+  }
+  header .container ul {
+    margin-top: 4.8rem;
+    display: flex;
+    flex-direction: row;
+    row-gap: 0px;
+    -moz-column-gap: 1.6rem;
+         column-gap: 1.6rem;
+    justify-content: center;
+  }
+  header .container ul .Download_iOS {
+    max-width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    border: none;
+    padding: 13px 50px;
+  }
+  header .container ul .Download_iOS a {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+  header .container ul .Download_Mac {
+    max-width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    background: #6174FF;
+    padding: 13px 50px;
+    border: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  }
+  header .container ul .Download_Mac a {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+  main {
+    margin-top: 15rem;
+  }
+  main .keep {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  main .keep .main_keep_text h2 {
+    max-width: 73rem;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.587px;
+    margin: 0 auto;
+  }
+  main .keep .main_keep_text p {
+    padding-top: 1.9rem;
+    max-width: 73rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+    margin: 0 auto;
+  }
+  main .keep .main_keep_nootebok {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    -moz-column-gap: 11rem;
+         column-gap: 11rem;
+    row-gap: 56px;
+    align-items: center;
+  }
+  main .keep .main_keep_nootebok .nootebok_text {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+  main .keep .main_keep_nootebok .nootebok_text ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    text-align: start;
+  }
+  main .keep .main_keep_nootebok .nootebok_text ul h2 {
+    color: #4C545C;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.391px;
+    text-align: start;
+  }
+  main .keep .main_keep_nootebok .nootebok_text ul p {
+    color: #9EABB2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    margin-bottom: 48px;
+    text-align: start;
+    max-width: 320px;
+  }
+  main .keep .main_keep_nootebok .nootebok {
+    display: flex;
+    max-width: 75.2rem;
+    height: 572px;
+    margin-left: -40px;
+  }
+  main .keep .main_keep_tablet {
+    display: flex;
+    flex-direction: column;
+    row-gap: 68px;
+    margin-top: 150px;
+  }
+  main .keep .main_keep_tablet .keep_tablet_text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    max-width: 73rem;
+    margin: 0 auto;
+  }
+  main .keep .main_keep_tablet .keep_tablet_text h2 {
+    max-width: 73rem;
+    color: #4C545C;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.457px;
+  }
+  main .keep .main_keep_tablet .keep_tablet_text p {
+    max-width: 73rem;
+    color: #9EABB2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  main .keep .main_keep_tablet .tablet {
+    max-width: 706.845px;
+    height: 471.23px;
+  }
+  main .keep .main_icon {
+    padding-top: 162px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  main .keep .main_icon h2 {
+    max-width: 73rem;
+    margin: 0 auto;
+    color: #4C545C;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: -0.587px;
+  }
+  main .keep .main_icon h3 {
+    color: #9EABB2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    max-width: 73rem;
+    margin-bottom: 90px;
+    margin: 0 auto;
+  }
+  main .keep .main_icon .main_icon_nam {
+    margin-top: 7.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_create ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_create ul .messech {
+    margin-bottom: 22px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_create ul h2 {
+    color: #4C545C;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.457px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_create ul h3 {
+    max-width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_plain ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_plain ul .mateh {
+    margin-bottom: 22px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_plain ul h2 {
+    color: #4C545C;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.457px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_plain ul h3 {
+    max-width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_sneak ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_sneak ul .koz {
+    margin-bottom: 22px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_sneak ul h2 {
+    color: #4C545C;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.457px;
+  }
+  main .keep .main_icon .main_icon_nam .main_icon_sneak ul h3 {
+    max-width: 311px;
+    color: #9EABB2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  main .keep .main_logo {
+    margin-top: 131px;
+  }
+  main .keep .main_logo ul {
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  main .keep .main_logo ul img {
+    width: 139px;
+    height: 41px;
+  }
+  main .keep .main_ios {
+    margin-top: 170px;
+  }
+  main .keep .main_ios h2 {
+    max-width: 730px;
+    color: #4C545C;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.457px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+  }
+  main .keep .main_ios p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #9EABB2;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+  }
+  main .keep .main_ios ul {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    margin-top: 46px;
+    justify-content: center;
+  }
+  main .keep .main_ios ul .Download_iOS {
+    max-width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    background: #26BBA4;
+    box-shadow: 0px 10px 20px 0px rgba(137, 229, 199, 0.5), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+    border: none;
+    padding: 13px 50px;
+  }
+  main .keep .main_ios ul .Download_iOS a {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+  }
+  main .keep .main_ios ul .Download_Mac {
+    max-width: 311px;
+    height: 56px;
+    border-radius: 28px;
+    background: #6174FF;
+    padding: 13px 50px;
+    border: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1), 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset;
+  }
+  main .keep .main_ios ul .Download_Mac a {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+    letter-spacing: 0.5px;
+  }
+  footer {
+    margin-top: 222px;
+    padding-bottom: 53px;
+  }
+  footer .footer_section {
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  footer .footer_section .footer_left {
+    padding-top: 52px;
+  }
+  footer .footer_section .footer_center {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  footer .footer_section .footer_center ul {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+  }
+  footer .footer_section .footer_center ul a {
+    color: #4C545C;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.135px;
+  }
+  footer .footer_section .footer_icon {
+    margin-top: 50px;
+  }
+  footer .footer_section .footer_icon ul {
+    justify-content: center;
+    display: flex;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+    font-size: 20px;
+  }
+}
+.icon_nam {
+  font-size: 30px;
+}
+
+.icon_nam:hover {
+  color: #26BBA4;
+  cursor: pointer;
+}
+
+.footer_center a:hover {
+  color: #26BBA4;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

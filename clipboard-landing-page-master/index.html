@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Clipboard landing page</title>
+
+  
+  <!-- google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <!-- icon link  -->
+  <script src="https://kit.fontawesome.com/7992928c53.js" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="./sass/style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+        <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" width="125" height="125" viewBox="0 0 125 125" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M62.5 0C97.0178 0 125 27.9822 125 62.5C125 97.0178 97.0178 125 62.5 125C27.9822 125 0 97.0178 0 62.5C0 27.9822 27.9822 0 62.5 0ZM62.5 10C33.5051 10 10 33.5051 10 62.5C10 91.4949 33.5051 115 62.5 115C91.4949 115 115 91.4949 115 62.5C115 33.5051 91.4949 10 62.5 10ZM89.0165 81.9454C90.9691 83.8981 90.9691 87.0639 89.0165 89.0165C74.3718 103.661 50.6282 103.661 35.9835 89.0165C21.3388 74.3718 21.3388 50.6282 35.9835 35.9835C50.6282 21.3388 74.3718 21.3388 89.0165 35.9835C90.9691 37.9361 90.9691 41.1019 89.0165 43.0546C87.0639 45.0072 83.8981 45.0072 81.9454 43.0546L81.6213 42.7356C70.8584 32.3162 53.6866 32.4225 43.0546 43.0546C32.3151 53.794 32.3151 71.206 43.0546 81.9454C53.794 92.6849 71.206 92.6849 81.9454 81.9454C83.8981 79.9928 87.0639 79.9928 89.0165 81.9454Z" fill="#26BBA4"/>
+          </svg>
+        </div>
+        <h1>A history of everything you copy</h1>
+        <h2>Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</h2>
+        <ul>
+            <li><button class="Download_iOS"><a href="#">Download for iOS</a></button></li>
+            <li><button class="Download_Mac"><a href="#">Download for Mac</a></button></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+  <section class="keep">
+      <div class="main_keep_text">
+          <h2>Keep track of your snippets</h2>
+          <p>Clipboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+      </div>
+
+      <!-- nootebik  -->
+      <div class="main_keep_nootebok">
+          <div class="nootebok_text">
+              <ul>
+                  <li>
+                      <h2>Quick Search</h2>
+                      <p>Easily search your snippets by content, category, web address, application, and more.</p>
+                  </li>
+                  <li>
+                      <h2>iCloud Sync</h2>
+                      <p>Instantly saves and syncs snippets across all your devices.</p>
+                  </li>
+                  <li>
+                      <h2>Complete History</h2>
+                      <p>Retrieve any snippets from the first moment you started using the app.</p>
+                  </li>
+              </ul>
+          </div>
+          <div class="nootebook_img"><img src="./images/image-computer.png" class="nootebok" alt="nootebok"></div>
+      </div>
+
+      <!-- tablet  -->
+
+      <div class="main_keep_tablet">
+          <div class="keep_tablet_text">
+              <h2>Access Clipboard Anywhere</h2>
+              <p>Whether you’re on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+          </div>
+          <div class="keep_tablet_img">
+              <img class="tablet" src="./images/image-devices.png" alt="tablet">
+          </div>
+      </div>
+
+      <!-- main icons  -->
+
+      <div class="main_icon">
+          <h2>Supercharge your workflow</h2>
+          <h3>We’ve got the tools to boost your productivity.</h3>
+          <div class="main_icon_nam">
+              <div class="main_icon_create">
+                  <ul>
+                      <li>
+                          <img class="messech" src="./images/icon-blacklist.svg" alt="">
+                      </li>
+                      <li>
+                          <h2>Create blacklists</h2>
+                      </li>
+                      <li>
+                          <h3>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</h3>
+                      </li>
+                  </ul>
+              </div>
+              <div class="main_icon_plain">
+                  <ul>
+                      <li>
+                          <img class="mateh" src="./images/icon-text.svg" alt="">
+                      </li>
+                      <li>
+                          <h2>Plain text snippets</h2>
+                      </li>
+                      <li>
+                          <h3>Remove unwanted formatting from copied text for a consistent look.</h3>
+                      </li>
+                  </ul>
+              </div>
+              <div class="main_icon_sneak">
+                  <ul>
+                      <li>
+                          <img class="koz" src="./images/icon-preview.svg" alt="">
+                      </li>
+                      <li>
+                          <h2>Sneak preview</h2>
+                      </li>
+                      <li>
+                          <h3>Quick preview of all snippets on your Clipboard for easy access.</h3>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <!-- main logo  -->
+      <div class="main_logo">
+          <ul>
+              <li><img src="./images/logo-google.png" alt=""></li>
+              <li><img src="./images/logo-ibm.png" alt=""></li>
+              <li><img src="./images/logo-microsoft.png" alt=""></li>
+              <li><img src="./images/logo-hp.png" alt=""></li>
+              <li><img src="./images/logo-vector-graphics.png" alt=""></li>
+          </ul>
+      </div>
+
+      <!-- main ios  -->
+
+      <div class="main_ios">
+          <h2>Clipboard for iOS and Mac OS</h2>
+          <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you’re ready to start adding to your clipboard.</p>
+          <ul>
+              <li><button class="Download_iOS" ><a href="#">Download for iOS</a></button></li>
+              <li><button class="Download_Mac"><a href="#">Download for Mac</a></button></li>
+          </ul>
+      </div>
+  </section>
+</main>
+
+
+
+  <footer>
+
+    <section class="footer_section">
+      <div class="footer_left">
+          <svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55" fill="none">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M27.5 0C42.6878 0 55 12.3122 55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5C0 12.3122 12.3122 0 27.5 0ZM27.5 5C15.0736 5 5 15.0736 5 27.5C5 39.9264 15.0736 50 27.5 50C39.9264 50 50 39.9264 50 27.5C50 15.0736 39.9264 5 27.5 5ZM39.3794 35.8439C40.3557 36.8202 40.3557 38.4031 39.3794 39.3794C32.8186 45.9402 22.1814 45.9402 15.6206 39.3794C9.0598 32.8186 9.0598 22.1814 15.6206 15.6206C22.1814 9.0598 32.8186 9.0598 39.3794 15.6206C40.3557 16.5969 40.3557 18.1798 39.3794 19.1561C38.4031 20.1325 36.8202 20.1325 35.8439 19.1561C31.2357 14.548 23.7643 14.548 19.1561 19.1561C14.548 23.7643 14.548 31.2357 19.1561 35.8439C23.7643 40.452 31.2357 40.452 35.8439 35.8439C36.8202 34.8675 38.4031 34.8675 39.3794 35.8439Z" fill="#26BBA4"/>
+            </svg>
+      </div>
+      <div class="footer_center">
+          <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Install Guide</a></li>
+          </ul>
+          <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Press Kit</a></li>
+          </ul>
+      </div>
+      <div class="footer_icon">
+          <ul>
+              <li><a href="#" class="icon_nam"><i class="fa-brands fa-square-facebook"></i></a></li>
+              <li><a href="#" class="icon_nam"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#" class="icon_nam"><i class="fa-brands fa-square-instagram"></i></a></li>
+          </ul>
+      </div>
+  </section>
+    <!-- <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p> -->
+  </footer>
+</body>
+</html>
